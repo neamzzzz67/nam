@@ -1,0 +1,19 @@
+du_lieuLgay=input("nhap du lieu")
+
+ho_ten=du_lieuLgay[:14].strip()
+ten_nhan_vat=du_lieuLgay[15:27].strip()
+thanh_pho = du_lieuLgay[28:45].strip()
+ma_hoc_sinh = du_lieuLgay[46:59].strip()
+cau_noi = du_lieuLgay[60:].strip()
+
+player = ho_ten.title()
+
+
+
+
+print(player)
+#print(ten_nhan_vat)
+#print(thanh_pho)
+#print(ma_hoc_sinh)
+#print(cau_noi)
+
